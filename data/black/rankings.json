@@ -1,0 +1,206 @@
+{
+    "Fragile Test": {
+        "debt_list": {
+            "tests/test_black.py": {
+                "all_costs": 793,
+                "file_set": {
+                    "tests/util.py": 2,
+                    "src/blib2to3/pygram.py": 0,
+                    "src/blib2to3/pytree.py": 6,
+                    "src/blib2to3/pgen2/token.py": 0,
+                    "src/blib2to3/pgen2/parse.py": 0,
+                    "src/blib2to3/pgen2/driver.py": 0,
+                    "src/blib2to3/pgen2/tokenize.py": 0,
+                    "src/black/files.py": 29,
+                    "src/black/parsing.py": 6,
+                    "src/black/handle_ipynb_magics.py": 0,
+                    "src/black/rusty.py": 0,
+                    "src/black/concurrency.py": 0,
+                    "src/black/cache.py": 0,
+                    "src/black/__init__.py": 65,
+                    "src/black/brackets.py": 0,
+                    "src/black/lines.py": 4,
+                    "src/black/mode.py": 0,
+                    "src/black/debug.py": 0,
+                    "src/black/trans.py": 72,
+                    "src/black/nodes.py": 0,
+                    "src/black/linegen.py": 6,
+                    "src/black/report.py": 0,
+                    "src/black/strings.py": 0,
+                    "src/black/const.py": 0,
+                    "src/black/output.py": 0,
+                    "src/black/numerics.py": 0,
+                    "src/black/comments.py": 0,
+                    "tests/test_black.py": 603
+                }
+            }
+        },
+        "ranking": {
+            "1": [
+                "tests/test_black.py",
+                793
+            ]
+        }
+    },
+    "Lagging Test": {
+        "debt_list": {
+            "tests/test_format.py": {
+                "all_costs": 124,
+                "file_set": {
+                    "src/black/__init__.py": 65,
+                    "tests/test_format.py": 59
+                }
+            }
+        },
+        "ranking": {
+            "1": [
+                "tests/test_format.py",
+                124
+            ]
+        }
+    },
+    "Async Test": {
+        "debt_list": {
+            "tests/test_black.py": {
+                "all_costs": 603,
+                "file_set": {
+                    "tests/data/ignore_subfolders_gitignore_tests/a.py": 0,
+                    "tests/data/simple_cases/collections.py": 0,
+                    "src/blib2to3/__init__.py": 0,
+                    "src/blib2to3/pgen2/__init__.py": 0,
+                    "src/blib2to3/pgen2/grammar.py": 0,
+                    "tests/test_black.py": 603
+                }
+            }
+        },
+        "ranking": {
+            "1": [
+                "tests/test_black.py",
+                603
+            ]
+        }
+    },
+    "Implicit Rel": {
+        "debt_list": {
+            "tests/test_format.py": {
+                "all_costs": 772,
+                "file_set": {
+                    "gallery/gallery.py": 0,
+                    "tests/optional.py": 0,
+                    "tests/test_trans.py": 50,
+                    "tests/test_ipynb.py": 49,
+                    "tests/test_black.py": 603,
+                    "tests/test_no_ipynb.py": 0,
+                    "tests/test_blackd.py": 0,
+                    "tests/data/miscellaneous/docstring_preview_no_string_normalization.py": 0,
+                    "tests/data/py_38/pep_572_remove_parens.py": 0,
+                    "tests/data/preview_context_managers/targeting_py39.py": 0,
+                    "tests/data/simple_cases/docstring.py": 11,
+                    "tests/data/simple_cases/comments5.py": 0,
+                    "tests/data/simple_cases/function_trailing_comma.py": 0,
+                    "action/main.py": 0,
+                    "scripts/migrate-black.py": 0,
+                    "src/blib2to3/pgen2/pgen.py": 0,
+                    "src/blackd/__init__.py": 0,
+                    "src/blackd/middlewares.py": 0,
+                    "tests/test_format.py": 59
+                }
+            }
+        },
+        "ranking": {
+            "1": [
+                "tests/test_format.py",
+                772
+            ]
+        }
+    },
+    "Total": {
+        "debt_list": {
+            "tests/test_black.pyFragile Test": {
+                "all_costs": 793,
+                "file_set": {
+                    "tests/util.py": 2,
+                    "src/blib2to3/pygram.py": 0,
+                    "src/blib2to3/pytree.py": 6,
+                    "src/blib2to3/pgen2/token.py": 0,
+                    "src/blib2to3/pgen2/parse.py": 0,
+                    "src/blib2to3/pgen2/driver.py": 0,
+                    "src/blib2to3/pgen2/tokenize.py": 0,
+                    "src/black/files.py": 29,
+                    "src/black/parsing.py": 6,
+                    "src/black/handle_ipynb_magics.py": 0,
+                    "src/black/rusty.py": 0,
+                    "src/black/concurrency.py": 0,
+                    "src/black/cache.py": 0,
+                    "src/black/__init__.py": 65,
+                    "src/black/brackets.py": 0,
+                    "src/black/lines.py": 4,
+                    "src/black/mode.py": 0,
+                    "src/black/debug.py": 0,
+                    "src/black/trans.py": 72,
+                    "src/black/nodes.py": 0,
+                    "src/black/linegen.py": 6,
+                    "src/black/report.py": 0,
+                    "src/black/strings.py": 0,
+                    "src/black/const.py": 0,
+                    "src/black/output.py": 0,
+                    "src/black/numerics.py": 0,
+                    "src/black/comments.py": 0,
+                    "tests/test_black.py": 603
+                }
+            },
+            "tests/test_format.pyLagging Test": {
+                "all_costs": 124,
+                "file_set": {
+                    "src/black/__init__.py": 65,
+                    "tests/test_format.py": 59
+                }
+            },
+            "tests/test_black.pyAsync Test": {
+                "all_costs": 603,
+                "file_set": {
+                    "tests/data/ignore_subfolders_gitignore_tests/a.py": 0,
+                    "tests/data/simple_cases/collections.py": 0,
+                    "src/blib2to3/__init__.py": 0,
+                    "src/blib2to3/pgen2/__init__.py": 0,
+                    "src/blib2to3/pgen2/grammar.py": 0,
+                    "tests/test_black.py": 603
+                }
+            },
+            "tests/test_format.pyImplicit Rel": {
+                "all_costs": 772,
+                "file_set": {
+                    "gallery/gallery.py": 0,
+                    "tests/optional.py": 0,
+                    "tests/test_trans.py": 50,
+                    "tests/test_ipynb.py": 49,
+                    "tests/test_black.py": 603,
+                    "tests/test_no_ipynb.py": 0,
+                    "tests/test_blackd.py": 0,
+                    "tests/data/miscellaneous/docstring_preview_no_string_normalization.py": 0,
+                    "tests/data/py_38/pep_572_remove_parens.py": 0,
+                    "tests/data/preview_context_managers/targeting_py39.py": 0,
+                    "tests/data/simple_cases/docstring.py": 11,
+                    "tests/data/simple_cases/comments5.py": 0,
+                    "tests/data/simple_cases/function_trailing_comma.py": 0,
+                    "action/main.py": 0,
+                    "scripts/migrate-black.py": 0,
+                    "src/blib2to3/pgen2/pgen.py": 0,
+                    "src/blackd/__init__.py": 0,
+                    "src/blackd/middlewares.py": 0,
+                    "tests/test_format.py": 59
+                }
+            }
+        },
+        "ranking": {
+            "1": [
+                "tests/test_black.pyFragile Test",
+                793
+            ],
+            "2": [
+                "tests/test_format.pyImplicit Rel",
+                169
+            ]
+        }
+    }
+}

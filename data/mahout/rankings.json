@@ -1,0 +1,964 @@
+{
+    "Fragile Test": {
+        "debt_list": {
+            "math/src/test/java/org/apache/mahout/math/AbstractVectorTest.java": {
+                "all_costs": 574,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/jet/random/engine/MersenneTwister.java": 60,
+                    "math/src/test/java/org/apache/mahout/math/AbstractVectorTest.java": 514
+                }
+            },
+            "examples/src/test/java/org/apache/mahout/classifier/sgd/TrainLogisticTest.java": {
+                "all_costs": 143,
+                "file_set": {
+                    "examples/src/test/java/org/apache/mahout/examples/MahoutTestCase.java": 0,
+                    "examples/src/test/java/org/apache/mahout/classifier/sgd/TrainLogisticTest.java": 143
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/VectorTest.java": {
+                "all_costs": 590,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/jet/random/engine/MersenneTwister.java": 60,
+                    "math/src/main/java/org/apache/mahout/math/function/Functions.java": 18,
+                    "math/src/test/java/org/apache/mahout/math/VectorTest.java": 512
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/CentroidTest.java": {
+                "all_costs": 16,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/random/MultiNormal.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/CentroidTest.java": 16
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/stats/LogLikelihoodTest.java": {
+                "all_costs": 138,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/main/java/org/apache/mahout/common/RandomUtils.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/stats/LogLikelihoodTest.java": 127
+                }
+            }
+        },
+        "ranking": {
+            "1": [
+                "math/src/test/java/org/apache/mahout/math/VectorTest.java",
+                590
+            ],
+            "2": [
+                "math/src/test/java/org/apache/mahout/math/AbstractVectorTest.java",
+                514
+            ],
+            "3": [
+                "examples/src/test/java/org/apache/mahout/classifier/sgd/TrainLogisticTest.java",
+                143
+            ],
+            "4": [
+                "math/src/test/java/org/apache/mahout/math/stats/LogLikelihoodTest.java",
+                138
+            ],
+            "5": [
+                "math/src/test/java/org/apache/mahout/math/CentroidTest.java",
+                16
+            ]
+        }
+    },
+    "Lagging Test": {
+        "debt_list": {
+            "math/src/test/java/org/apache/mahout/math/jet/random/GammaTest.java": {
+                "all_costs": 160,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/test/java/org/apache/mahout/math/jet/random/GammaTest.java": 149
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/AbstractVectorTest.java": {
+                "all_costs": 692,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/Vector.java": 33,
+                    "math/src/main/java/org/apache/mahout/math/DenseVector.java": 145,
+                    "math/src/test/java/org/apache/mahout/math/AbstractVectorTest.java": 514
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/solver/EigenDecompositionTest.java": {
+                "all_costs": 155,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/Vector.java": 33,
+                    "math/src/test/java/org/apache/mahout/math/solver/EigenDecompositionTest.java": 122
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/jet/random/NormalTest.java": {
+                "all_costs": 96,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/test/java/org/apache/mahout/math/jet/random/NormalTest.java": 85
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/jet/stat/ProbabilityTest.java": {
+                "all_costs": 198,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/test/java/org/apache/mahout/math/jet/stat/ProbabilityTest.java": 187
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/jet/random/engine/MersenneTwisterTest.java": {
+                "all_costs": 733,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/test/java/org/apache/mahout/math/jet/random/engine/MersenneTwisterTest.java": 722
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/CentroidTest.java": {
+                "all_costs": 194,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/Vector.java": 33,
+                    "math/src/main/java/org/apache/mahout/math/DenseVector.java": 145,
+                    "math/src/test/java/org/apache/mahout/math/CentroidTest.java": 16
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/stats/OnlineExponentialAverageTest.java": {
+                "all_costs": 11,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/test/java/org/apache/mahout/math/stats/OnlineExponentialAverageTest.java": 0
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/jet/random/NegativeBinomialTest.java": {
+                "all_costs": 80,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/test/java/org/apache/mahout/math/jet/random/NegativeBinomialTest.java": 69
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/jet/random/ExponentialTest.java": {
+                "all_costs": 138,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/test/java/org/apache/mahout/math/jet/random/ExponentialTest.java": 127
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/TestDenseVector.java": {
+                "all_costs": 39,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/function/Functions.java": 18,
+                    "math/src/test/java/org/apache/mahout/math/TestDenseVector.java": 21
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/decomposer/hebbian/TestHebbianSolver.java": {
+                "all_costs": 419,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/test/java/org/apache/mahout/math/decomposer/SolverTest.java": 5,
+                    "math/src/main/java/org/apache/mahout/math/SequentialAccessSparseVector.java": 183,
+                    "math/src/main/java/org/apache/mahout/math/DenseVector.java": 145,
+                    "math/src/main/java/org/apache/mahout/math/SparseRowMatrix.java": 19,
+                    "math/src/main/java/org/apache/mahout/math/DenseMatrix.java": 38,
+                    "math/src/main/java/org/apache/mahout/math/function/Functions.java": 18,
+                    "math/src/test/java/org/apache/mahout/math/decomposer/hebbian/TestHebbianSolver.java": 0
+                }
+            }
+        },
+        "ranking": {
+            "1": [
+                "math/src/test/java/org/apache/mahout/math/jet/random/engine/MersenneTwisterTest.java",
+                733
+            ],
+            "2": [
+                "math/src/test/java/org/apache/mahout/math/AbstractVectorTest.java",
+                692
+            ],
+            "3": [
+                "math/src/test/java/org/apache/mahout/math/decomposer/hebbian/TestHebbianSolver.java",
+                263
+            ],
+            "4": [
+                "math/src/test/java/org/apache/mahout/math/jet/stat/ProbabilityTest.java",
+                187
+            ],
+            "5": [
+                "math/src/test/java/org/apache/mahout/math/jet/random/GammaTest.java",
+                149
+            ],
+            "6": [
+                "math/src/test/java/org/apache/mahout/math/jet/random/ExponentialTest.java",
+                127
+            ],
+            "7": [
+                "math/src/test/java/org/apache/mahout/math/solver/EigenDecompositionTest.java",
+                122
+            ],
+            "8": [
+                "math/src/test/java/org/apache/mahout/math/jet/random/NormalTest.java",
+                85
+            ],
+            "9": [
+                "math/src/test/java/org/apache/mahout/math/jet/random/NegativeBinomialTest.java",
+                69
+            ],
+            "10": [
+                "math/src/test/java/org/apache/mahout/math/TestDenseVector.java",
+                21
+            ],
+            "11": [
+                "math/src/test/java/org/apache/mahout/math/CentroidTest.java",
+                16
+            ]
+        }
+    },
+    "Async Test": {
+        "debt_list": {
+            "math/src/test/java/org/apache/mahout/math/list/ObjectArrayListTest.java": {
+                "all_costs": 65,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/main/java/org/apache/mahout/common/RandomUtils.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/list/ObjectArrayListTest.java": 54
+                }
+            },
+            "math/src/test/java/org/apache/mahout/common/RandomUtilsTest.java": {
+                "all_costs": 11,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/test/java/org/apache/mahout/common/RandomUtilsTest.java": 0
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/random/MultinomialTest.java": {
+                "all_costs": 19,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/main/java/org/apache/mahout/common/RandomUtils.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/random/MultinomialTest.java": 8
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/FileBasedMatrixTest.java": {
+                "all_costs": 653,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/Vector.java": 33,
+                    "math/src/main/java/org/apache/mahout/math/DenseVector.java": 145,
+                    "math/src/main/java/org/apache/mahout/math/Matrix.java": 47,
+                    "math/src/main/java/org/apache/mahout/math/DiagonalMatrix.java": 220,
+                    "math/src/main/java/org/apache/mahout/math/jet/random/engine/MersenneTwister.java": 60,
+                    "math/src/main/java/org/apache/mahout/math/function/Functions.java": 18,
+                    "math/src/main/java/org/apache/mahout/math/function/DoubleDoubleFunction.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/function/DoubleFunction.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/function/VectorFunction.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/flavor/TraversingStructureEnum.java": 48,
+                    "math/src/main/java/org/apache/mahout/math/flavor/MatrixFlavor.java": 82,
+                    "math/src/main/java/org/apache/mahout/common/RandomUtils.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/FileBasedMatrixTest.java": 0
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/WeightedVectorTest.java": {
+                "all_costs": 103,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/jet/random/engine/MersenneTwister.java": 60,
+                    "math/src/main/java/org/apache/mahout/math/function/Functions.java": 18,
+                    "math/src/test/java/org/apache/mahout/math/WeightedVectorTest.java": 25
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/random/MultiNormalTest.java": {
+                "all_costs": 439,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/main/java/org/apache/mahout/math/Vector.java": 33,
+                    "math/src/main/java/org/apache/mahout/math/DenseVector.java": 145,
+                    "math/src/main/java/org/apache/mahout/math/function/DoubleDoubleFunction.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/function/DoubleFunction.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/stats/OnlineSummarizer.java": 250,
+                    "math/src/main/java/org/apache/mahout/common/RandomUtils.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/random/MultiNormalTest.java": 0
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/random/EmpiricalTest.java": {
+                "all_costs": 11,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/main/java/org/apache/mahout/common/RandomUtils.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/random/EmpiricalTest.java": 0
+                }
+            },
+            "examples/src/test/java/org/apache/mahout/classifier/sgd/ModelDissectorTest.java": {
+                "all_costs": 185,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/DenseVector.java": 145,
+                    "examples/src/test/java/org/apache/mahout/examples/MahoutTestCase.java": 0,
+                    "examples/src/test/java/org/apache/mahout/classifier/sgd/ModelDissectorTest.java": 40
+                }
+            },
+            "examples/src/main/java/org/apache/mahout/classifier/sgd/TestNewsGroups.java": {
+                "all_costs": 411,
+                "file_set": {
+                    "mr/src/main/java/org/apache/mahout/vectorizer/encoders/StaticWordValueEncoder.java": 0,
+                    "mr/src/main/java/org/apache/mahout/vectorizer/encoders/ConstantValueEncoder.java": 0,
+                    "mr/src/main/java/org/apache/mahout/vectorizer/encoders/Dictionary.java": 0,
+                    "mr/src/main/java/org/apache/mahout/vectorizer/encoders/FeatureVectorEncoder.java": 0,
+                    "mr/src/main/java/org/apache/mahout/cf/taste/impl/common/RunningAverageAndStdDev.java": 0,
+                    "mr/src/main/java/org/apache/mahout/classifier/ClassifierResult.java": 0,
+                    "mr/src/main/java/org/apache/mahout/classifier/ResultAnalyzer.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/Vector.java": 33,
+                    "math/src/main/java/org/apache/mahout/math/RandomAccessSparseVector.java": 128,
+                    "math/src/main/java/org/apache/mahout/math/MurmurHash.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/function/DoubleDoubleFunction.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/function/DoubleFunction.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/set/AbstractSet.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/stats/OnlineSummarizer.java": 250,
+                    "math/src/main/java/org/apache/mahout/common/RandomUtils.java": 0,
+                    "examples/src/main/java/org/apache/mahout/classifier/sgd/TestNewsGroups.java": 0
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/QRDecompositionTest.java": {
+                "all_costs": 690,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/jet/random/engine/MersenneTwister.java": 60,
+                    "math/src/main/java/org/apache/mahout/math/function/Functions.java": 18,
+                    "math/src/main/java/org/apache/mahout/math/function/DoubleDoubleFunction.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/stats/OnlineSummarizer.java": 250,
+                    "math/src/test/java/org/apache/mahout/math/QRDecompositionTest.java": 362
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/MatrixTest.java": {
+                "all_costs": 202,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/jet/random/engine/MersenneTwister.java": 60,
+                    "math/src/main/java/org/apache/mahout/math/function/Functions.java": 18,
+                    "math/src/main/java/org/apache/mahout/math/function/VectorFunction.java": 0,
+                    "math/src/main/java/org/apache/mahout/common/RandomUtils.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/MatrixTest.java": 124
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/random/PoissonSamplerTest.java": {
+                "all_costs": 11,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/test/java/org/apache/mahout/math/random/PoissonSamplerTest.java": 0
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/stats/LogLikelihoodTest.java": {
+                "all_costs": 383,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/Vector.java": 33,
+                    "math/src/main/java/org/apache/mahout/math/DenseVector.java": 145,
+                    "math/src/main/java/org/apache/mahout/math/jet/random/engine/MersenneTwister.java": 60,
+                    "math/src/main/java/org/apache/mahout/math/function/Functions.java": 18,
+                    "math/src/main/java/org/apache/mahout/math/function/DoubleDoubleFunction.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/function/DoubleFunction.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/stats/LogLikelihoodTest.java": 127
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/TestRandomAccessSparseVector.java": {
+                "all_costs": 23,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/common/RandomUtils.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/TestRandomAccessSparseVector.java": 23
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/random/NormalTest.java": {
+                "all_costs": 261,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/main/java/org/apache/mahout/math/stats/OnlineSummarizer.java": 250,
+                    "math/src/test/java/org/apache/mahout/math/random/NormalTest.java": 0
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/stats/OnlineSummarizerTest.java": {
+                "all_costs": 664,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/jet/stat/Probability.java": 122,
+                    "math/src/main/java/org/apache/mahout/math/jet/random/Gamma.java": 232,
+                    "math/src/main/java/org/apache/mahout/math/jet/random/AbstractContinousDistribution.java": 19,
+                    "math/src/main/java/org/apache/mahout/math/jet/random/Normal.java": 84,
+                    "math/src/main/java/org/apache/mahout/common/RandomUtils.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/stats/OnlineSummarizerTest.java": 207
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/TestDenseVector.java": {
+                "all_costs": 81,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/jet/random/engine/MersenneTwister.java": 60,
+                    "math/src/test/java/org/apache/mahout/math/TestDenseVector.java": 21
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/TestSequentialAccessSparseVector.java": {
+                "all_costs": 28,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/common/RandomUtils.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/TestSequentialAccessSparseVector.java": 28
+                }
+            }
+        },
+        "ranking": {
+            "1": [
+                "math/src/test/java/org/apache/mahout/math/QRDecompositionTest.java",
+                690
+            ],
+            "2": [
+                "math/src/test/java/org/apache/mahout/math/stats/OnlineSummarizerTest.java",
+                664
+            ],
+            "3": [
+                "math/src/test/java/org/apache/mahout/math/FileBasedMatrixTest.java",
+                575
+            ],
+            "4": [
+                "examples/src/main/java/org/apache/mahout/classifier/sgd/TestNewsGroups.java",
+                128
+            ],
+            "5": [
+                "math/src/test/java/org/apache/mahout/math/stats/LogLikelihoodTest.java",
+                127
+            ],
+            "6": [
+                "math/src/test/java/org/apache/mahout/math/MatrixTest.java",
+                124
+            ],
+            "7": [
+                "math/src/test/java/org/apache/mahout/math/list/ObjectArrayListTest.java",
+                65
+            ],
+            "8": [
+                "examples/src/test/java/org/apache/mahout/classifier/sgd/ModelDissectorTest.java",
+                40
+            ],
+            "9": [
+                "math/src/test/java/org/apache/mahout/math/TestSequentialAccessSparseVector.java",
+                28
+            ],
+            "10": [
+                "math/src/test/java/org/apache/mahout/math/WeightedVectorTest.java",
+                25
+            ],
+            "11": [
+                "math/src/test/java/org/apache/mahout/math/TestRandomAccessSparseVector.java",
+                23
+            ],
+            "12": [
+                "math/src/test/java/org/apache/mahout/math/TestDenseVector.java",
+                21
+            ],
+            "13": [
+                "math/src/test/java/org/apache/mahout/math/random/MultinomialTest.java",
+                8
+            ]
+        }
+    },
+    "Implicit Rel": {
+        "debt_list": {
+            "math/src/test/java/org/apache/mahout/math/MatrixVectorViewTest.java": {
+                "all_costs": 78,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/MatrixVectorView.java": 20,
+                    "math/src/test/java/org/apache/mahout/math/MatrixVectorViewTest.java": 58
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/random/IndianBuffetTest.java": {
+                "all_costs": 220,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/WeightedVectorTest.java": 25,
+                    "math/src/test/java/org/apache/mahout/math/FileBasedMatrixTest.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/CentroidTest.java": 16,
+                    "math/src/test/java/org/apache/mahout/math/random/MultiNormalTest.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/random/PoissonSamplerTest.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/random/MultinomialTest.java": 8,
+                    "math/src/test/java/org/apache/mahout/math/random/NormalTest.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/random/ChineseRestaurantTest.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/random/EmpiricalTest.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/Centroid.java": 11,
+                    "math/src/main/java/org/apache/mahout/math/FileBasedMatrix.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/WeightedVector.java": 156,
+                    "math/src/main/java/org/apache/mahout/math/random/ChineseRestaurant.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/random/IndianBuffet.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/random/Missing.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/random/MultiNormal.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/random/WeightedThing.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/random/PoissonSampler.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/random/Multinomial.java": 4,
+                    "math/src/main/java/org/apache/mahout/math/random/Normal.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/random/AbstractSamplerFunction.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/random/Empirical.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/random/IndianBuffetTest.java": 0
+                }
+            }
+        },
+        "ranking": {
+            "1": [
+                "math/src/test/java/org/apache/mahout/math/random/IndianBuffetTest.java",
+                220
+            ],
+            "2": [
+                "math/src/test/java/org/apache/mahout/math/MatrixVectorViewTest.java",
+                78
+            ]
+        }
+    },
+    "Risky Struct": {
+        "debt_list": {
+            "integration/src/test/java/org/apache/mahout/clustering/TestClusterEvaluator.java": {
+                "all_costs": 816,
+                "file_set": {
+                    "integration/src/test/java/org/apache/mahout/clustering/cdbw/TestCDbwEvaluator.java": 488,
+                    "integration/src/test/java/org/apache/mahout/clustering/TestClusterEvaluator.java": 328
+                }
+            }
+        },
+        "ranking": {
+            "1": [
+                "integration/src/test/java/org/apache/mahout/clustering/TestClusterEvaluator.java",
+                816
+            ]
+        }
+    },
+    "Total": {
+        "debt_list": {
+            "math/src/test/java/org/apache/mahout/math/AbstractVectorTest.javaFragile Test": {
+                "all_costs": 574,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/jet/random/engine/MersenneTwister.java": 60,
+                    "math/src/test/java/org/apache/mahout/math/AbstractVectorTest.java": 514
+                }
+            },
+            "examples/src/test/java/org/apache/mahout/classifier/sgd/TrainLogisticTest.javaFragile Test": {
+                "all_costs": 143,
+                "file_set": {
+                    "examples/src/test/java/org/apache/mahout/examples/MahoutTestCase.java": 0,
+                    "examples/src/test/java/org/apache/mahout/classifier/sgd/TrainLogisticTest.java": 143
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/VectorTest.javaFragile Test": {
+                "all_costs": 590,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/jet/random/engine/MersenneTwister.java": 60,
+                    "math/src/main/java/org/apache/mahout/math/function/Functions.java": 18,
+                    "math/src/test/java/org/apache/mahout/math/VectorTest.java": 512
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/CentroidTest.javaFragile Test": {
+                "all_costs": 16,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/random/MultiNormal.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/CentroidTest.java": 16
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/stats/LogLikelihoodTest.javaFragile Test": {
+                "all_costs": 138,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/main/java/org/apache/mahout/common/RandomUtils.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/stats/LogLikelihoodTest.java": 127
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/jet/random/GammaTest.javaLagging Test": {
+                "all_costs": 160,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/test/java/org/apache/mahout/math/jet/random/GammaTest.java": 149
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/AbstractVectorTest.javaLagging Test": {
+                "all_costs": 692,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/Vector.java": 33,
+                    "math/src/main/java/org/apache/mahout/math/DenseVector.java": 145,
+                    "math/src/test/java/org/apache/mahout/math/AbstractVectorTest.java": 514
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/solver/EigenDecompositionTest.javaLagging Test": {
+                "all_costs": 155,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/Vector.java": 33,
+                    "math/src/test/java/org/apache/mahout/math/solver/EigenDecompositionTest.java": 122
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/jet/random/NormalTest.javaLagging Test": {
+                "all_costs": 96,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/test/java/org/apache/mahout/math/jet/random/NormalTest.java": 85
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/jet/stat/ProbabilityTest.javaLagging Test": {
+                "all_costs": 198,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/test/java/org/apache/mahout/math/jet/stat/ProbabilityTest.java": 187
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/jet/random/engine/MersenneTwisterTest.javaLagging Test": {
+                "all_costs": 733,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/test/java/org/apache/mahout/math/jet/random/engine/MersenneTwisterTest.java": 722
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/CentroidTest.javaLagging Test": {
+                "all_costs": 194,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/Vector.java": 33,
+                    "math/src/main/java/org/apache/mahout/math/DenseVector.java": 145,
+                    "math/src/test/java/org/apache/mahout/math/CentroidTest.java": 16
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/stats/OnlineExponentialAverageTest.javaLagging Test": {
+                "all_costs": 11,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/test/java/org/apache/mahout/math/stats/OnlineExponentialAverageTest.java": 0
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/jet/random/NegativeBinomialTest.javaLagging Test": {
+                "all_costs": 80,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/test/java/org/apache/mahout/math/jet/random/NegativeBinomialTest.java": 69
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/jet/random/ExponentialTest.javaLagging Test": {
+                "all_costs": 138,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/test/java/org/apache/mahout/math/jet/random/ExponentialTest.java": 127
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/TestDenseVector.javaLagging Test": {
+                "all_costs": 39,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/function/Functions.java": 18,
+                    "math/src/test/java/org/apache/mahout/math/TestDenseVector.java": 21
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/decomposer/hebbian/TestHebbianSolver.javaLagging Test": {
+                "all_costs": 419,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/test/java/org/apache/mahout/math/decomposer/SolverTest.java": 5,
+                    "math/src/main/java/org/apache/mahout/math/SequentialAccessSparseVector.java": 183,
+                    "math/src/main/java/org/apache/mahout/math/DenseVector.java": 145,
+                    "math/src/main/java/org/apache/mahout/math/SparseRowMatrix.java": 19,
+                    "math/src/main/java/org/apache/mahout/math/DenseMatrix.java": 38,
+                    "math/src/main/java/org/apache/mahout/math/function/Functions.java": 18,
+                    "math/src/test/java/org/apache/mahout/math/decomposer/hebbian/TestHebbianSolver.java": 0
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/list/ObjectArrayListTest.javaAsync Test": {
+                "all_costs": 65,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/main/java/org/apache/mahout/common/RandomUtils.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/list/ObjectArrayListTest.java": 54
+                }
+            },
+            "math/src/test/java/org/apache/mahout/common/RandomUtilsTest.javaAsync Test": {
+                "all_costs": 11,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/test/java/org/apache/mahout/common/RandomUtilsTest.java": 0
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/random/MultinomialTest.javaAsync Test": {
+                "all_costs": 19,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/main/java/org/apache/mahout/common/RandomUtils.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/random/MultinomialTest.java": 8
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/FileBasedMatrixTest.javaAsync Test": {
+                "all_costs": 653,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/Vector.java": 33,
+                    "math/src/main/java/org/apache/mahout/math/DenseVector.java": 145,
+                    "math/src/main/java/org/apache/mahout/math/Matrix.java": 47,
+                    "math/src/main/java/org/apache/mahout/math/DiagonalMatrix.java": 220,
+                    "math/src/main/java/org/apache/mahout/math/jet/random/engine/MersenneTwister.java": 60,
+                    "math/src/main/java/org/apache/mahout/math/function/Functions.java": 18,
+                    "math/src/main/java/org/apache/mahout/math/function/DoubleDoubleFunction.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/function/DoubleFunction.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/function/VectorFunction.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/flavor/TraversingStructureEnum.java": 48,
+                    "math/src/main/java/org/apache/mahout/math/flavor/MatrixFlavor.java": 82,
+                    "math/src/main/java/org/apache/mahout/common/RandomUtils.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/FileBasedMatrixTest.java": 0
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/WeightedVectorTest.javaAsync Test": {
+                "all_costs": 103,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/jet/random/engine/MersenneTwister.java": 60,
+                    "math/src/main/java/org/apache/mahout/math/function/Functions.java": 18,
+                    "math/src/test/java/org/apache/mahout/math/WeightedVectorTest.java": 25
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/random/MultiNormalTest.javaAsync Test": {
+                "all_costs": 439,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/main/java/org/apache/mahout/math/Vector.java": 33,
+                    "math/src/main/java/org/apache/mahout/math/DenseVector.java": 145,
+                    "math/src/main/java/org/apache/mahout/math/function/DoubleDoubleFunction.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/function/DoubleFunction.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/stats/OnlineSummarizer.java": 250,
+                    "math/src/main/java/org/apache/mahout/common/RandomUtils.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/random/MultiNormalTest.java": 0
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/random/EmpiricalTest.javaAsync Test": {
+                "all_costs": 11,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/main/java/org/apache/mahout/common/RandomUtils.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/random/EmpiricalTest.java": 0
+                }
+            },
+            "examples/src/test/java/org/apache/mahout/classifier/sgd/ModelDissectorTest.javaAsync Test": {
+                "all_costs": 185,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/DenseVector.java": 145,
+                    "examples/src/test/java/org/apache/mahout/examples/MahoutTestCase.java": 0,
+                    "examples/src/test/java/org/apache/mahout/classifier/sgd/ModelDissectorTest.java": 40
+                }
+            },
+            "examples/src/main/java/org/apache/mahout/classifier/sgd/TestNewsGroups.javaAsync Test": {
+                "all_costs": 411,
+                "file_set": {
+                    "mr/src/main/java/org/apache/mahout/vectorizer/encoders/StaticWordValueEncoder.java": 0,
+                    "mr/src/main/java/org/apache/mahout/vectorizer/encoders/ConstantValueEncoder.java": 0,
+                    "mr/src/main/java/org/apache/mahout/vectorizer/encoders/Dictionary.java": 0,
+                    "mr/src/main/java/org/apache/mahout/vectorizer/encoders/FeatureVectorEncoder.java": 0,
+                    "mr/src/main/java/org/apache/mahout/cf/taste/impl/common/RunningAverageAndStdDev.java": 0,
+                    "mr/src/main/java/org/apache/mahout/classifier/ClassifierResult.java": 0,
+                    "mr/src/main/java/org/apache/mahout/classifier/ResultAnalyzer.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/Vector.java": 33,
+                    "math/src/main/java/org/apache/mahout/math/RandomAccessSparseVector.java": 128,
+                    "math/src/main/java/org/apache/mahout/math/MurmurHash.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/function/DoubleDoubleFunction.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/function/DoubleFunction.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/set/AbstractSet.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/stats/OnlineSummarizer.java": 250,
+                    "math/src/main/java/org/apache/mahout/common/RandomUtils.java": 0,
+                    "examples/src/main/java/org/apache/mahout/classifier/sgd/TestNewsGroups.java": 0
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/QRDecompositionTest.javaAsync Test": {
+                "all_costs": 690,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/jet/random/engine/MersenneTwister.java": 60,
+                    "math/src/main/java/org/apache/mahout/math/function/Functions.java": 18,
+                    "math/src/main/java/org/apache/mahout/math/function/DoubleDoubleFunction.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/stats/OnlineSummarizer.java": 250,
+                    "math/src/test/java/org/apache/mahout/math/QRDecompositionTest.java": 362
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/MatrixTest.javaAsync Test": {
+                "all_costs": 202,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/jet/random/engine/MersenneTwister.java": 60,
+                    "math/src/main/java/org/apache/mahout/math/function/Functions.java": 18,
+                    "math/src/main/java/org/apache/mahout/math/function/VectorFunction.java": 0,
+                    "math/src/main/java/org/apache/mahout/common/RandomUtils.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/MatrixTest.java": 124
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/random/PoissonSamplerTest.javaAsync Test": {
+                "all_costs": 11,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/test/java/org/apache/mahout/math/random/PoissonSamplerTest.java": 0
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/stats/LogLikelihoodTest.javaAsync Test": {
+                "all_costs": 383,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/Vector.java": 33,
+                    "math/src/main/java/org/apache/mahout/math/DenseVector.java": 145,
+                    "math/src/main/java/org/apache/mahout/math/jet/random/engine/MersenneTwister.java": 60,
+                    "math/src/main/java/org/apache/mahout/math/function/Functions.java": 18,
+                    "math/src/main/java/org/apache/mahout/math/function/DoubleDoubleFunction.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/function/DoubleFunction.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/stats/LogLikelihoodTest.java": 127
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/TestRandomAccessSparseVector.javaAsync Test": {
+                "all_costs": 23,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/common/RandomUtils.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/TestRandomAccessSparseVector.java": 23
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/random/NormalTest.javaAsync Test": {
+                "all_costs": 261,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/MahoutTestCase.java": 11,
+                    "math/src/main/java/org/apache/mahout/math/stats/OnlineSummarizer.java": 250,
+                    "math/src/test/java/org/apache/mahout/math/random/NormalTest.java": 0
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/stats/OnlineSummarizerTest.javaAsync Test": {
+                "all_costs": 664,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/jet/stat/Probability.java": 122,
+                    "math/src/main/java/org/apache/mahout/math/jet/random/Gamma.java": 232,
+                    "math/src/main/java/org/apache/mahout/math/jet/random/AbstractContinousDistribution.java": 19,
+                    "math/src/main/java/org/apache/mahout/math/jet/random/Normal.java": 84,
+                    "math/src/main/java/org/apache/mahout/common/RandomUtils.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/stats/OnlineSummarizerTest.java": 207
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/TestDenseVector.javaAsync Test": {
+                "all_costs": 81,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/jet/random/engine/MersenneTwister.java": 60,
+                    "math/src/test/java/org/apache/mahout/math/TestDenseVector.java": 21
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/TestSequentialAccessSparseVector.javaAsync Test": {
+                "all_costs": 28,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/common/RandomUtils.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/TestSequentialAccessSparseVector.java": 28
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/MatrixVectorViewTest.javaImplicit Rel": {
+                "all_costs": 78,
+                "file_set": {
+                    "math/src/main/java/org/apache/mahout/math/MatrixVectorView.java": 20,
+                    "math/src/test/java/org/apache/mahout/math/MatrixVectorViewTest.java": 58
+                }
+            },
+            "math/src/test/java/org/apache/mahout/math/random/IndianBuffetTest.javaImplicit Rel": {
+                "all_costs": 220,
+                "file_set": {
+                    "math/src/test/java/org/apache/mahout/math/WeightedVectorTest.java": 25,
+                    "math/src/test/java/org/apache/mahout/math/FileBasedMatrixTest.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/CentroidTest.java": 16,
+                    "math/src/test/java/org/apache/mahout/math/random/MultiNormalTest.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/random/PoissonSamplerTest.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/random/MultinomialTest.java": 8,
+                    "math/src/test/java/org/apache/mahout/math/random/NormalTest.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/random/ChineseRestaurantTest.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/random/EmpiricalTest.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/Centroid.java": 11,
+                    "math/src/main/java/org/apache/mahout/math/FileBasedMatrix.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/WeightedVector.java": 156,
+                    "math/src/main/java/org/apache/mahout/math/random/ChineseRestaurant.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/random/IndianBuffet.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/random/Missing.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/random/MultiNormal.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/random/WeightedThing.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/random/PoissonSampler.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/random/Multinomial.java": 4,
+                    "math/src/main/java/org/apache/mahout/math/random/Normal.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/random/AbstractSamplerFunction.java": 0,
+                    "math/src/main/java/org/apache/mahout/math/random/Empirical.java": 0,
+                    "math/src/test/java/org/apache/mahout/math/random/IndianBuffetTest.java": 0
+                }
+            },
+            "integration/src/test/java/org/apache/mahout/clustering/TestClusterEvaluator.javaRisky Struct": {
+                "all_costs": 816,
+                "file_set": {
+                    "integration/src/test/java/org/apache/mahout/clustering/cdbw/TestCDbwEvaluator.java": 488,
+                    "integration/src/test/java/org/apache/mahout/clustering/TestClusterEvaluator.java": 328
+                }
+            }
+        },
+        "ranking": {
+            "1": [
+                "integration/src/test/java/org/apache/mahout/clustering/TestClusterEvaluator.javaRisky Struct",
+                816
+            ],
+            "2": [
+                "math/src/test/java/org/apache/mahout/math/jet/random/engine/MersenneTwisterTest.javaLagging Test",
+                733
+            ],
+            "3": [
+                "math/src/test/java/org/apache/mahout/math/AbstractVectorTest.javaLagging Test",
+                692
+            ],
+            "4": [
+                "math/src/test/java/org/apache/mahout/math/QRDecompositionTest.javaAsync Test",
+                690
+            ],
+            "5": [
+                "math/src/test/java/org/apache/mahout/math/stats/OnlineSummarizerTest.javaAsync Test",
+                664
+            ],
+            "6": [
+                "math/src/test/java/org/apache/mahout/math/VectorTest.javaFragile Test",
+                512
+            ],
+            "7": [
+                "math/src/test/java/org/apache/mahout/math/FileBasedMatrixTest.javaAsync Test",
+                397
+            ],
+            "8": [
+                "math/src/test/java/org/apache/mahout/math/decomposer/hebbian/TestHebbianSolver.javaLagging Test",
+                245
+            ],
+            "9": [
+                "math/src/test/java/org/apache/mahout/math/random/IndianBuffetTest.javaImplicit Rel",
+                220
+            ],
+            "10": [
+                "math/src/test/java/org/apache/mahout/math/jet/stat/ProbabilityTest.javaLagging Test",
+                187
+            ],
+            "11": [
+                "math/src/test/java/org/apache/mahout/math/jet/random/GammaTest.javaLagging Test",
+                149
+            ],
+            "12": [
+                "examples/src/test/java/org/apache/mahout/classifier/sgd/TrainLogisticTest.javaFragile Test",
+                143
+            ],
+            "13": [
+                "examples/src/main/java/org/apache/mahout/classifier/sgd/TestNewsGroups.javaAsync Test",
+                128
+            ],
+            "14": [
+                "math/src/test/java/org/apache/mahout/math/stats/LogLikelihoodTest.javaFragile Test",
+                127
+            ],
+            "15": [
+                "math/src/test/java/org/apache/mahout/math/jet/random/ExponentialTest.javaLagging Test",
+                127
+            ],
+            "16": [
+                "math/src/test/java/org/apache/mahout/math/MatrixTest.javaAsync Test",
+                124
+            ],
+            "17": [
+                "math/src/test/java/org/apache/mahout/math/solver/EigenDecompositionTest.javaLagging Test",
+                122
+            ],
+            "18": [
+                "math/src/test/java/org/apache/mahout/math/jet/random/NormalTest.javaLagging Test",
+                85
+            ],
+            "19": [
+                "math/src/test/java/org/apache/mahout/math/MatrixVectorViewTest.javaImplicit Rel",
+                78
+            ],
+            "20": [
+                "math/src/test/java/org/apache/mahout/math/jet/random/NegativeBinomialTest.javaLagging Test",
+                69
+            ],
+            "21": [
+                "math/src/test/java/org/apache/mahout/math/list/ObjectArrayListTest.javaAsync Test",
+                54
+            ],
+            "22": [
+                "examples/src/test/java/org/apache/mahout/classifier/sgd/ModelDissectorTest.javaAsync Test",
+                40
+            ],
+            "23": [
+                "math/src/test/java/org/apache/mahout/math/TestSequentialAccessSparseVector.javaAsync Test",
+                28
+            ],
+            "24": [
+                "math/src/test/java/org/apache/mahout/math/TestRandomAccessSparseVector.javaAsync Test",
+                23
+            ],
+            "25": [
+                "math/src/test/java/org/apache/mahout/math/TestDenseVector.javaLagging Test",
+                21
+            ]
+        }
+    }
+}
